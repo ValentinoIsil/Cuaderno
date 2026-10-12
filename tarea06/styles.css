@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#contenedor{
+    background-color: black;
+    color: white;
+    
+}
+
+#cabecera{
+    background-color: rgb(255, 183, 48);
+    position: sticky;
+    top: 0;
+}
+
+#cabecera ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 20px;
+}
+
+#cabecera a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-weight: bolder;
+    border-radius: 30px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#cabecera a:hover {
+    background-color: red;
+    color: white;
+    border-radius: 30px;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+#contenido{
+    margin-top: 200px;
+    background-color: rgb(10, 10, 17);
+    padding: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.sect{
+    height: 400px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+#contenido img{
+    width: 100%;
+    filter: grayscale(100%);
+    transition: all 0.5s ease;
+}
+
+#contenido img:hover{
+    filter: grayscale(0%);
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+
+}
+
+#tipo1{
+    color: black;
+    background-color: aqua;
+    position: absolute;
+    top: 470px;
+    left: 580px;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+#tipo2{
+    color: white;
+    background-color: red;
+    position: absolute;
+    top: 470px;
+    right: 250px;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+#back{
+    background-color: rgb(255, 183, 48);
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    border-radius: 50px;
+    
+
+}
